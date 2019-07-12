@@ -15,7 +15,7 @@ var flux = {
         trigger: 'axis',
     },
     legend: {
-        data:['维族','非维族'],
+        data:['麻瓜','非麻瓜'],
         bottom: "9%",
         // y:'bottom',
         // left:0,
@@ -41,7 +41,7 @@ var flux = {
     },
     series: [
         {
-        name:'维族',
+        name:'麻瓜',
         data: [820, 932, 0, 934, 333, 1330, 1400,820, 932, 901, 934, 333, 1330, 1400],
         type: 'line',
         itemStyle: {
@@ -50,7 +50,7 @@ var flux = {
             // }
         }
     },{
-        name:'非维族',
+        name:'非麻瓜',
         data: [1290, 1330, 1320, 934, 666, 934, 900,1290, 1330, 1320, 934, 666, 934, 900],
         type: 'line',
         itemStyle: {
@@ -85,7 +85,7 @@ var month_p = {
             }
         },
         legend: {
-            data:['民族 其他','民族 维族'],
+            data:['民族 其他','民族 麻瓜'],
             top: "380px",
         },
         xAxis: {
@@ -125,7 +125,7 @@ var month_p = {
             },
         },
         {
-            name: '民族 维族',
+            name: '民族 麻瓜',
             type: 'bar',
             data: [36, 10, 10, 20,10, 20,20,5, 20, 36, 10, 10, 20,10],
             itemStyle:{
@@ -151,7 +151,7 @@ var month_a = {
                 }
          },
          legend: {
-             data:['生活省份 新疆','生活省份 其他'],
+             data:['生活省份 霍格沃兹','生活省份 其他'],
              top: "380px",
          },
          xAxis: {
@@ -175,7 +175,7 @@ var month_a = {
          },
          series: [
              {
-             name: '生活省份 新疆',
+             name: '生活省份 霍格沃兹',
              type: 'bar',
              data: [5, 20, 36, 10, 10, 20,5, 20, 36, 10, 10, 20,10, 20],
              itemStyle:{
@@ -197,10 +197,10 @@ var month_a = {
      ],
  };
 
-//维族申请人申请人生活区域分布(2月)
+//麻瓜申请人申请人生活区域分布(2月)
  var pie_w = {
      title : {
-         text: '维族申请人申请人生活区域分布(2月)',
+         text: '麻瓜申请人申请人生活区域分布(2月)',
          x:'center',
          top:"12px",
      },
@@ -210,16 +210,16 @@ var month_a = {
      },
      legend: {
          top: "380px",
-         data: ['新疆','北京','广东','江苏','上海','湖北','其他']
+         data: ['霍格沃兹','北京','广东','江苏','上海','湖北','其他']
      },
      series : [
          {
-             name: '维族申请人申请人生活区域分布',
+             name: '麻瓜申请人申请人生活区域分布',
              type: 'pie',
              radius : '55%',
              center: ['50%', '55%'],
              data:[
-                {value:8905, name:'新疆',itemStyle:{color:'#5b9bd4'}},
+                {value:8905, name:'霍格沃兹',itemStyle:{color:'#5b9bd4'}},
                 {value:3130, name:'北京',itemStyle:{color:'#eb7423'}},
                 {value:2544, name:'广东',itemStyle:{color:'#a0a0a0'}},
                 {value:1335, name:'江苏',itemStyle:{color:'#ffbb00'}},
@@ -238,10 +238,10 @@ var month_a = {
      ]
  };
 
-// 非维族申请人申请人生活区域分布(2月)
+// 非麻瓜申请人申请人生活区域分布(2月)
  var pie = {
      title : {
-         text: '非维族申请人申请人生活区域分布(2月)',
+         text: '非麻瓜申请人申请人生活区域分布(2月)',
          x:'center',
          top:"12px",
      },
@@ -251,16 +251,16 @@ var month_a = {
      },
      legend: {
          top: "380px",
-         data: ['新疆','北京','广东','江苏','上海','湖北','其他']
+         data: ['霍格沃兹','北京','广东','江苏','上海','湖北','其他']
      },
      series : [
          {
-             name: '非维族申请人申请人生活区域分布',
+             name: '非麻瓜申请人申请人生活区域分布',
              type: 'pie',
              radius : '55%',
              center: ['50%', '55%'],
              data:[
-                 {value:89905, name:'新疆',itemStyle:{color:'#5b9bd4'}},
+                 {value:89905, name:'霍格沃兹',itemStyle:{color:'#5b9bd4'}},
                  {value:3322, name:'北京',itemStyle:{color:'#eb7423'}},
                  {value:24434, name:'广东',itemStyle:{color:'#a0a0a0'}},
                  {value:13525, name:'江苏',itemStyle:{color:'#ffbb00'}},
@@ -297,7 +297,7 @@ var time = {
              top: "380",
          },
          xAxis: {
-             data: ["新疆非维族","新疆维族","其他地区非维族","其他地区维族"],
+             data: ["霍格沃兹非麻瓜","霍格沃兹麻瓜","其他地区非麻瓜","其他地区麻瓜"],
              offset:10,
              axisTick: {show: false},
          },
@@ -355,7 +355,7 @@ var time_year = {
         trigger: 'axis'
     },
     legend: {
-        data:['新疆非维族','新疆维族','其他地区非维族','其他地区维族'],
+        data:['霍格沃兹非麻瓜','霍格沃兹麻瓜','其他地区非麻瓜','其他地区麻瓜'],
         top: "380",
     },
     xAxis: {
@@ -380,7 +380,7 @@ var time_year = {
     },
     series: [
         {
-        name:'新疆非维族',
+        name:'霍格沃兹非麻瓜',
         data: [1,2,3,4,5,6,7,8,9,10,11,12,13,14],
         type: 'line',
         itemStyle: {
@@ -389,7 +389,7 @@ var time_year = {
             }
         }
     },{
-        name:'新疆维族',
+        name:'霍格沃兹麻瓜',
         data: [2,3,4,5,6,7,8,9,10,11,12,13,14,15],
         type: 'line',
         itemStyle: {
@@ -398,7 +398,7 @@ var time_year = {
             }
         }
     },{
-        name:'其他地区非维族',
+        name:'其他地区非麻瓜',
         data: [3,4,5,6,7,8,9,10,11,12,13,14,15,16],
         type: 'line',
         itemStyle: {
@@ -407,7 +407,7 @@ var time_year = {
             }
         }
     },{
-        name:'其他地区维族',
+        name:'其他地区麻瓜',
         data: [4,5,6,7,8,9,10,11,12,13,14,15,16,17],
         type: 'line',
         itemStyle: {
@@ -419,10 +419,10 @@ var time_year = {
     ]
 };
 
-// 90天内申请次数分布(维族)
+// 90天内申请次数分布(麻瓜)
 var percentage_w = {
     title: {
-        text: '90天内申请次数分布(维族)',
+        text: '90天内申请次数分布(麻瓜)',
         x:'center',
         top:"12px",
     },
@@ -504,10 +504,10 @@ var percentage_w = {
     ]
 };
 
-// 90天内申请次数分布(非维族)
+// 90天内申请次数分布(非麻瓜)
 var percentage = {
     title: {
-        text: '90天内申请次数分布(非维族)',
+        text: '90天内申请次数分布(非麻瓜)',
         x:'center',
         top:"12px",
     },
@@ -589,10 +589,10 @@ var percentage = {
     ]
 };
 
-// 申请人年龄分布(维族)
+// 申请人年龄分布(麻瓜)
 var age_w = {
          title: {
-             text: '申请人年龄分布(维族)',
+             text: '申请人年龄分布(麻瓜)',
              x:'center',
              top:"12",
          },
@@ -654,10 +654,10 @@ var age_w = {
      ],
  };
 
-// 申请人年龄分布(非维族)
+// 申请人年龄分布(非麻瓜)
 var age = {
          title: {
-             text: '申请人年龄分布(非维族)',
+             text: '申请人年龄分布(非麻瓜)',
              x:'center',
              top:"12",
          },
@@ -719,10 +719,10 @@ var age = {
      ],
  };
 
-// 申请人性别分析(维族)
+// 申请人性别分析(麻瓜)
  var sex_w = {
           title: {
-              text: '申请人性别分析(维族)',
+              text: '申请人性别分析(麻瓜)',
               x:'center',
               top:"12",
           },
@@ -781,10 +781,10 @@ var age = {
       ],
   };
 
-// 申请人性别分析(非维族)
+// 申请人性别分析(非麻瓜)
 var sex = {
          title: {
-             text: '申请人性别分析(非维族)',
+             text: '申请人性别分析(非麻瓜)',
              x:'center',
              top:"12",
          },
