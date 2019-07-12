@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Refresh" content="">
+    <title>监控</title>
+    <script src="./js/echarts.common.min.js"></script>
+    <script src="./js/main.js"></script>
+    <!-- <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script> -->
+    <link rel="stylesheet" href="./css/bar.css" media="screen">
+
+</head>
+
+<body>
+    
+        <div id="flux">
+            <script>
+                var myChart = echarts.init(document.getElementById('flux'));
+                myChart.setOption(flux);
+            </script>
+        </div>
+    <div id="main">
+        
+            <div id="month-p">
+                <script>
+                    var myChart2 = echarts.init(document.getElementById('month-p'));
+                    myChart2.setOption(month_p);
+                </script>
+            </div>
+
+
+            <div id="month-a">
+                <script>
+                    var myChart3 = echarts.init(document.getElementById('month-a'));
+                    myChart3.setOption(month_a);
+                </script>
+            </div>
+        
+
+
+        
+            <div id="pie-w">
+                <script>
+                    var myChart4 = echarts.init(document.getElementById('pie-w'));
+                    myChart4.setOption(pie_w);
+                </script>
+            </div>
+
+
+            <div id="pie">
+                <script>
+                    var myChart5 = echarts.init(document.getElementById('pie'));
+                    myChart5.setOption(pie);
+                </script>
+            </div>
+        
+
+
+        
+            <div id="time">
+                <script>
+                    var myChart6 = echarts.init(document.getElementById('time'));
+                    myChart6.setOption(time);
+                </script>
+            </div>
+
+
+            <div id="time-year">
+                <script>
+                    var myChart7 = echarts.init(document.getElementById('time-year'));
+                    myChart7.setOption(time_year);
+                </script>
+            </div>
+        
+
+
+        
+            <div id="percentage-w">
+                <script>
+                    var myChart8 = echarts.init(document.getElementById('percentage-w'));
+                    myChart8.setOption(percentage_w);
+                </script>
+            </div>
+
+
+            <div id="percentage">
+                <script>
+                    var myChart9 = echarts.init(document.getElementById('percentage'));
+                    myChart9.setOption(percentage);
+                </script>
+            </div>
+        
+
+
+        
+            <div id="age-w">
+                <script>
+                    var myChart10 = echarts.init(document.getElementById('age-w'));
+                    myChart10.setOption(age_w);
+                </script>
+            </div>
+
+
+            <div id="age">
+                <script>
+                    var myChart11 = echarts.init(document.getElementById('age'));
+                    myChart11.setOption(age);
+                </script>
+            </div>
+        
+
+
+
+        
+            <div id="sex-w">
+                <script>
+                    var myChart12 = echarts.init(document.getElementById('sex-w'));
+                    myChart12.setOption(sex_w);
+                </script>
+            </div>
+
+            <div id="sex">
+                <script>
+                    var myChart13 = echarts.init(document.getElementById('sex'));
+                    myChart13.setOption(sex);
+                </script>
+            </div>
+        
+
+
+    </div>
+</body>
+
+</html>

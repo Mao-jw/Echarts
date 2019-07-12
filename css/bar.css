@@ -1,0 +1,71 @@
+body{
+    /* background-color: #f4f4f4, */
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+} 
+@media screen and (min-width:1000px){
+    #age-w,#age,#month-a,#month-p,#percentage-w,#percentage,#pie-w,#pie,#sex-w,#sex,#time-year,#time{
+        width: 50rem;
+        /* min-width:600px; */
+        /* width: 600vw; */
+        height: 420px;
+        border: .0625rem solid #d6d6d6;
+        /* position: fixed; */
+        /* background-color: red; */
+        margin: 0 0 5rem;
+    }
+    #main{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+        flex:1 1 ;
+    }
+    #flux{
+        margin: .75rem auto 5rem;
+        width:1000px;
+        height: 420px;
+        border: .0625rem solid #d6d6d6;
+    }
+   
+    /* #month-p,#pie-w,#time,#percentage-w,#age-w,#sex-w{
+        display: inline-block;
+        margin: 0 3.75rem 5rem;
+        position: relative;
+    }
+    
+    #month-a,#pie,#time-year,#percentage,#age,#sex{
+        display: inline-block;
+        margin: 0 3.75rem 5rem;
+    
+    } */
+    
+}
+
+@media screen and (max-width:102rem) and (min-width:1200px){
+    #age-w,#age,#month-a,#month-p,#percentage-w,#percentage,#pie-w,#pie,#sex-w,#sex,#time-year,#time{
+        width: 45%;
+        min-width: 35.625rem;
+        height: 420px;
+        /* border: .0625rem solid #d6d6d6; */
+        margin: 0 auto 5rem;
+        /* background-color: blueviolet; */
+    }
+}
+
+@media screen and (max-width:1230px){
+    #flux,#age-w,#age,#month-a,#month-p,#percentage-w,#percentage,#pie-w,#pie,#sex-w,#sex,#time-year,#time{
+        width: 85%;
+        min-width: 35.625rem;
+        height: 420px;
+        border: .0625rem solid #d6d6d6;
+        margin: 0 auto 5rem;
+    }
+}
+
+
+
+
+
+
+
